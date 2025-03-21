@@ -57,7 +57,7 @@ const Earth: React.FC<EarthProps> = ({
       markers: [
         { location: [-15.7801, -47.9292], size: 0.1 },
         { location: [-0.1807, -78.4678], size: 0.1 },
-        { location: [4.7110, -74.0721], size: 0.2},
+        { location: [4.7110, -74.0721], size: 0.1},
       ],
       onRender: (state: Record<string, any>) => {
         state.phi = phi;

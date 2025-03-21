@@ -15,24 +15,21 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row justify-center items-center mx-auto max-w-[1300px] text-center">
                 <div>
                   <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                    Free and Open-Source Next.js Template for Startup & SaaS
+                  Be a true Hustler and dominate the Global Market game
                   </h1>
                   <p className="text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                    Startup is free Next.js template for startups and SaaS
-                    business websites comes with all the essential pages,
-                    components, and sections you need to launch a complete
-                    business website, built-with Next 13.x and Tailwind CSS.
+                  In the business world, you either wait or make it happen. At Global Hustler, we provide the tools for you to lead, combining dropshipping, AI, and advanced strategies to scale your online store.
                   </p>
                 </div>
-                <div className="flex flex-col">
+                <div className="flex flex-col relative">
                   <article className="z-10 grid w-[400px] gap-4 text-center">
-                    <Earth />
+                    <Earth  className=""/>
                   </article>
 
-                  <div className="relative -mt-32 h-80  overflow-hidden [mask-image:radial-gradient(50%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,#ffc832,transparent_90%)] before:opacity-40 after:absolute after:-left-1/2 after:top-1/2 after:aspect-[1/0.7] after:w-[200%] after:rounded-[10%] after:border-t after:border-[#746c16] after:bg-[#2b2708]">
+                  <div className="absolute -mt-48 h-[900px]  overflow-hidden [mask-image:radial-gradient(50%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,#ffc832,transparent_90%)] before:opacity-40 after:absolute after:-left-1/2 after:top-2/3 after:aspect-[1/0.7] after:w-[200%] after:rounded-[100%] after:border-t after:border-[#746c16] after:bg-[#2b2708]">
                     <Sparkles
                       density={1200}
-                      className="absolute inset-x-0 bottom-0 h-full w-full "
+                      className="inset-x-0 bottom-0 h-full w-full"
                     />
                   </div>
                 </div>
