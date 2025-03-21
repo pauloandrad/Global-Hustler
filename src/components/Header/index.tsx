@@ -53,10 +53,10 @@ const Header = () => {
               <Link
                 href="/"
                 className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
+                  sticky ? "py-5 lg:py-2" : "py-4"
                 } `}
               >
-                 <h1 className="mb-5 text-lg font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                 <h1 className="text-lg font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                     GLOBAL HUSTLER
                   </h1>
               </Link>
